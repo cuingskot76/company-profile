@@ -26,12 +26,8 @@ body {
   scroll-behavior: smooth;
 }
 
-@font-face {
-  font-family: "Mollie glaston";
-  src: url("../fonts/Mollie-glaston.woff2") format("woff2"),
-    url("../fonts/Mollie-glaston.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
+html {
+  overflow-x: hidden;
 }
 
 /* ? _max-width_ */
