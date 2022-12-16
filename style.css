@@ -568,9 +568,9 @@ html {
   .ham {
     display: none;
   }
-  body {
+  /* body {
     background-color: lightblue;
-  }
+  } */
   .navbar__menu {
     display: flex;
     gap: 1rem;
@@ -720,6 +720,10 @@ html {
     background-position: center;
     background-size: cover;
   }
+  .testimonial__content {
+    padding: 3rem 4rem 1.5rem 4rem;
+    text-align: center;
+  }
   .FAQ__content {
     display: flex;
     gap: 2rem;
@@ -757,9 +761,9 @@ html {
   .max-width {
     padding: 0.5rem 5rem;
   }
-  body {
+  /* body {
     background-color: salmon;
-  }
+  } */
   .home__text-1 {
     font-size: 3.1rem;
   }
@@ -785,9 +789,9 @@ html {
   .max-width {
     padding: 0.5rem 10rem;
   }
-  body {
+  /* body {
     background-color: lightpink;
-  }
+  } */
   .navbar__menu {
     display: flex;
     gap: 1rem;
@@ -818,9 +822,9 @@ html {
   .max-width {
     padding: 0.5rem 15rem;
   }
-  body {
+  /* body {
     background-color: lightgoldenrodyellow;
-  }
+  } */
   .navbar__menu {
     display: flex;
     gap: 1rem;
@@ -848,9 +852,9 @@ html {
   .max-width {
     padding: 0.5rem 25rem;
   }
-  body {
+  /* body {
     background-color: lightgray;
-  }
+  } */
   .navbar__menu {
     display: flex;
     gap: 1rem;
