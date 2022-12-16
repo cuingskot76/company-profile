@@ -15,15 +15,20 @@
           <h1><a href="#home">Vonzy</a></h1>
         </div>
 
-        <ul class="navbar__menu">
-          <li><a href="home" class="active">Home</a></li>
-          <li><a href="about">About Us</a></li>
-          <li><a href="category">Category</a></li>
-          <li><a href="shop">Shop</a></li>
-          <div class="btn">
-            <button>Shop Now</button>
-          </div>
-        </ul>
+        <div class="navbar__menu-content">
+          <ul class="navbar__menu">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#category">Category</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <div class="btn__nav-sm">
+              <a href="#">Shop Now</a>
+            </div>
+          </ul>
+        </div>
+        <div class="btn btn__nav">
+          <a href="#">Shop Now</a>
+        </div>
         <!--  hamburger menu -->
         <svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="80">
           <path
@@ -45,27 +50,28 @@
     <section class="home" id="home">
       <div class="max-width">
         <div class="home__content">
-          <div class="home__text-1">
-            Natural Cosmetic Purity <br />
-            for Every Skin
+          <div class="home__content-left">
+            <div class="home__text-1">
+              Natural Cosmetic Purity <br />
+              for Every Skin
+            </div>
+            <div class="home__img-1">
+              <img src="./img/home-img/kalos.webp" alt="kalos" />
+            </div>
           </div>
-          <div class="home__img-1">
-            <img
-              src="./img/home-img/girl-using-face-serum.webp"
-              alt="girl-using-face-serum"
-            />
-          </div>
-          <div class="home__img-2">
-            <img src="./img//home-img/face-cream.webp" alt="face-cream" />
-          </div>
-          <div class="home__text-2">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus
-            debitis ratione officiis? Adipisci, corporis dicta!
-            <div class="btn btn__home">
-              <a href="#"
-                >See Our Catalog
-                <i class="ri-arrow-right-up-line right-up-line"></i
-              ></a>
+          <div class="home__content-right">
+            <div class="home__img-2">
+              <img src="./img//home-img/face-cream.webp" alt="face-cream" />
+            </div>
+            <div class="home__text-2">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus
+              debitis ratione officiis? Adipisci, corporis dicta!
+              <div class="btn btn__home">
+                <a href="#"
+                  >See Our Catalog
+                  <i class="ri-arrow-right-up-line right-up-line"></i
+                ></a>
+              </div>
             </div>
           </div>
         </div>
@@ -73,13 +79,97 @@
     </section>
     <!-- end__home -->
 
+    <!-- about-us -->
+    <section class="about-us" id="about">
+      <div class="max-width">
+        <div class="about-us__content">
+          <div class="head-title">
+            <h2 class="title">ABOUT US</h2>
+            <h3 class="sec__title">Get Your Skin To Glow</h3>
+          </div>
+          <div class="about-us__box-content">
+            <div class="about-us__box">
+              <div class="about-us__box-img">
+                <img src="./img/about-img/beauty-glow.png" alt="beauty-glow" />
+              </div>
+              <div class="about-us__box-text">
+                <h3 class="about-us__box-title">Beauty Glow</h3>
+                <p class="about-us__box-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint,
+                  officia!
+                </p>
+                <a href="#" class="btn__about"
+                  >learn more <i class="ri-arrow-right-line"></i
+                ></a>
+              </div>
+            </div>
+            <div class="about-us__box">
+              <div class="about-us__box-img">
+                <img
+                  src="./img/about-img/natural-glow.png"
+                  alt="natural-glow"
+                />
+              </div>
+              <div class="about-us__box-text">
+                <h3 class="about-us__box-title">Natural Glow</h3>
+                <p class="about-us__box-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+                  nostrum rerum sapiente quidem rem necessitatibus.
+                </p>
+                <a href="#" class="btn__about"
+                  >learn more <i class="ri-arrow-right-line"></i
+                ></a>
+              </div>
+            </div>
+            <div class="about-us__box">
+              <div class="about-us__box-img">
+                <img src="./img/about-img/beauty-skin.png" alt="beauty-skin" />
+              </div>
+              <div class="about-us__box-text">
+                <h3 class="about-us__box-title">Beauty Skin</h3>
+                <p class="about-us__box-desc">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Architecto in at fugiat totam enim labore.
+                </p>
+                <a href="#" class="btn__about"
+                  >learn more <i class="ri-arrow-right-line"></i
+                ></a>
+              </div>
+            </div>
+            <div class="about-us__box">
+              <div class="about-us__box-img">
+                <img
+                  src="./img/about-img/flawless-skin.png"
+                  alt="flawless-skin"
+                />
+              </div>
+              <div class="about-us__box-text">
+                <h3 class="about-us__box-title">Flawless Skin</h3>
+                <p class="about-us__box-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Optio, totam iure accusantium officiis quasi expedita?
+                </p>
+                <a href="#" class="btn__about"
+                  >learn more <i class="ri-arrow-right-line"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end__about-us -->
+
     <!-- product -->
     <section class="product" id="product">
       <div class="max-width">
         <div class="product__content">
           <div class="product__content-left">
-            <h2 class="title">PRODUCT</h2>
-            <h3 class="sec__title">Our Latest Products</h3>
+            <div class="head-title">
+              <h2 class="title">PRODUCT</h2>
+              <h3 class="sec__title">Our Latest Products</h3>
+            </div>
             <p class="desc__title">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
               saepe ullam id repellat ipsa suscipit molestias, quae sit libero
@@ -89,7 +179,10 @@
               >See More <i class="ri-arrow-right-line"></i
             ></a>
           </div>
-          <div class="product__content-right" id="product__content-right">
+          <div
+            class="product__content-right gallery"
+            id="product__content-right"
+          >
             <div class="product-box">
               <div class="product-box__img">
                 <img
@@ -172,14 +265,13 @@
           </div>
           <div class="how-does-work__content-right">
             <p class="content-right__text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
-              voluptatum perspiciatis aut enim quia vero numquam ab similique a
-              repellendus quasi quibusdam veniam debitis, reprehenderit dolor id
-              tenetur obcaecati ea quas corporis eum beatae qui excepturi?
-              Laborum ipsa recusandae ratione.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+              autem doloribus nisi ab deleniti consectetur nostrum iste
+              veritatis asperiores reiciendis.
             </p>
           </div>
         </div>
+
         <div class="how-does-work__content-2">
           <div class="how-does-work__content-2-left">
             <h4 class="text-left">Clean your face with face wash soap</h4>
@@ -221,6 +313,88 @@
     </section>
     <!-- end__testimonial -->
 
+    <!-- FAQ -->
+    <section class="FAQ" id="FAQ">
+      <div class="max-width">
+        <div class="FAQ__content">
+          <div class="FAQ__content-left">
+            <div class="FAQ__content-left__title">
+              <h2 class="title">FAQ's</h2>
+              <h3 class="sec__title">Frequently Asked Questions</h3>
+            </div>
+            <div class="FAQ__content-left__title-2">
+              <span
+                >don't see your question? let's contact us <br />
+                <a href="#" class="faq__contact">Vonzy@gmail.com</a>
+              </span>
+            </div>
+          </div>
+
+          <div class="FAQ__content-right">
+            <div class="FAQ__content-right-box">
+              <div class="FAQ__content-right-box-title active">
+                <h4 class="FAQ__text-left">What is slugging skincare?</h4>
+                <i class="ri-subtract-line"></i>
+              </div>
+              <div class="FAQ__content-right-box-desc active">
+                <p class="content-right__text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Animi facilis quos quas magni deleniti exercitationem impedit
+                  est ducimus maxime dolores?
+                </p>
+              </div>
+            </div>
+            <div class="FAQ__content-right-box">
+              <div class="FAQ__content-right-box-title">
+                <h4 class="FAQ__text-left">
+                  What ingredients should be avoided in skin care?
+                </h4>
+                <i class="ri-add-line"></i>
+              </div>
+              <div class="FAQ__content-right-box-desc">
+                <p class="content-right__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Architecto qui ratione accusantium! Eius, iure? Dolor.
+                </p>
+              </div>
+            </div>
+            <div class="FAQ__content-right-box">
+              <div class="FAQ__content-right-box-title">
+                <h4 class="FAQ__text-left">
+                  How to apply retinol on the skin?
+                </h4>
+                <i class="ri-add-line"></i>
+              </div>
+              <div class="FAQ__content-right-box-desc">
+                <p class="content-right__text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Voluptas, corporis omnis, laudantium repellat ab aliquam nam
+                  voluptatum tempora, error aperiam earum numquam molestiae
+                  nobis iste?
+                </p>
+              </div>
+            </div>
+            <div class="FAQ__content-right-box">
+              <div class="FAQ__content-right-box-title">
+                <h4 class="FAQ__text-left">
+                  What is the right time to use vitamin C ?
+                </h4>
+                <i class="ri-add-line"></i>
+              </div>
+              <div class="FAQ__content-right-box-desc">
+                <p class="content-right__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Nesciunt animi eaque ratione maxime fugit eligendi alias vel
+                  voluptate?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end__FAQ -->
+
     <!-- footer -->
     <footer class="footer">
       <div class="max-width">
@@ -249,7 +423,10 @@
                 <span>+62 123 456 7890</span>
               </div>
               <div class="contact">
-                <span>123 Street, Purwokerto, Central Java</span>
+                <span
+                  >123 Street, Purwokerto, <br />
+                  Central Java</span
+                >
               </div>
             </div>
           </div>
