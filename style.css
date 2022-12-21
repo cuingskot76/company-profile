@@ -165,7 +165,7 @@ html {
 }
 .home__text-1 {
   font-size: 2.5rem;
-  font-family: "poppins", sans-serif;
+  font-family: "inter", sans-serif;
 }
 .home__img-2 {
   display: flex;
@@ -316,6 +316,7 @@ html {
 .content-right__text {
   color: var(--quaternary-color);
 }
+/* ? cleanser */
 .how-does-work__content-2 {
   display: flex;
   flex-direction: column-reverse;
@@ -330,6 +331,71 @@ html {
   width: 300px;
   border-radius: 0.4rem;
   background-size: cover;
+  object-fit: cover;
+}
+/* ? toner */
+.how-does-work__content-3 {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.how-does-work__content-3-right {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem 0;
+  width: 100%;
+}
+.how-does-work__content-3-right img {
+  width: 300px;
+  border-radius: 0.4rem;
+  background-size: cover;
+}
+/* ? serum */
+.how-does-work__content-4 {
+  display: flex;
+
+  flex-direction: column-reverse;
+}
+.how-does-work__content-4-right {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem 0;
+  width: 100%;
+}
+.how-does-work__content-4-right img {
+  width: 300px;
+  border-radius: 0.4rem;
+}
+/* ? moisturizer */
+.how-does-work__content-5 {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.how-does-work__content-5-right {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem 0;
+  width: 100%;
+}
+.how-does-work__content-5-right img {
+  width: 300px;
+  border-radius: 0.4rem;
+}
+/* ? sunscreen */
+.how-does-work__content-6 {
+  display: flex;
+
+  flex-direction: column-reverse;
+}
+.how-does-work__content-6-right {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem 0;
+  width: 100%;
+}
+.how-does-work__content-6-right img {
+  width: 300px;
+  border-radius: 0.4rem;
+  background-size: cover;
 }
 .text-left {
   color: var(--tertiary-color);
@@ -339,13 +405,14 @@ html {
   color: var(--senary-color);
   background-color: var(--tertiary-color);
   font-weight: 600;
-  margin: 1.5rem 0;
+  /* margin: 1.5rem 0; */
+  margin-bottom: 0.5rem;
 }
 .text-content__how {
   font-size: 1.3rem;
 }
 .content-right__text-2 {
-  margin: 1rem 0;
+  margin: 0.5rem 0;
 }
 /* *__end_How-it-Work_ */
 
@@ -437,6 +504,44 @@ html {
   margin-bottom: 1rem;
 }
 /* *__end_FAQ_ */
+
+/* *Biodata */
+.biodata__content-right-box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  align-items: center;
+  flex-direction: column;
+}
+.biodata__content-right-box-img {
+  border: 1px solid var(--tertiary-color);
+  width: 300px;
+  /* ! buat test */
+  height: 300px;
+  border-radius: 0.4rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: crimson;
+  font-weight: bold;
+}
+.biodata__content-right-box-desc {
+  margin-top: 1rem;
+  text-align: center;
+}
+.biodata__content-right-box-desc-text {
+  margin: 0.5rem 0;
+}
+.twitter,
+.instagram,
+.tiktok {
+  font-size: 32px;
+  margin-top: 0.5rem;
+  padding: 0 0.5rem;
+  color: var(--quinary-color);
+}
+/* *__end_Biodata */
 
 /* *_Footer_ */
 .footer__content {
@@ -575,6 +680,9 @@ html {
   .navbar__menu {
     display: flex;
     gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
   /* .home__content {
     display: grid;
@@ -706,6 +814,7 @@ html {
   .how-does-work__content-right {
     width: 50%;
   }
+  /* ? cleanser */
   .how-does-work__content-2 {
     display: flex;
     flex-direction: row;
@@ -717,10 +826,83 @@ html {
     width: fit-content;
   }
   .how-does-work__content-2-right img {
-    width: 250px;
+    width: 300px;
     background-position: center;
     background-size: cover;
   }
+  /* ? toner */
+  .how-does-work__content-3 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: row-reverse;
+  }
+  .how-does-work__content-3-right {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 0;
+    width: 100%;
+  }
+  .how-does-work__content-3-right img {
+    width: 300px;
+    border-radius: 0.4rem;
+    background-size: cover;
+  }
+  /* ? serum */
+  .how-does-work__content-4 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: row;
+  }
+  .how-does-work__content-4-right {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 0;
+    width: 100%;
+  }
+  .how-does-work__content-4-right img {
+    width: 300px;
+    border-radius: 0.4rem;
+    background-size: cover;
+  }
+  /* ? moisturizer */
+  .how-does-work__content-5 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: row-reverse;
+  }
+  .how-does-work__content-5-right {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 0;
+    width: 100%;
+  }
+  .how-does-work__content-5-right img {
+    width: 300px;
+    border-radius: 0.4rem;
+    background-size: cover;
+  }
+  /* ? sunscreen */
+  .how-does-work__content-6 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: row;
+  }
+  .how-does-work__content-6-right {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 0;
+    width: 100%;
+  }
+  .how-does-work__content-6-right img {
+    width: 300px;
+    border-radius: 0.4rem;
+    background-size: cover;
+  }
+
   .testimonial__content {
     padding: 3rem 4rem 1.5rem 4rem;
     text-align: center;
@@ -739,6 +921,19 @@ html {
   }
   .FAQ__content-right {
     width: 50%;
+  }
+  .biodata__content-right-box {
+    flex-direction: row;
+    gap: 1rem;
+  }
+  .biodata__content-right-box-img {
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+  }
+  .biodata__content-right-box-desc {
+    width: 50%;
+    padding: 1rem;
   }
   .footer__content {
     display: flex;
@@ -783,6 +978,10 @@ html {
   .home__img-1 img {
     width: 280px;
   }
+  .biodata__content-right-box {
+    flex-direction: row;
+    gap: 2rem;
+  }
 }
 
 /* ! large device  */
@@ -807,6 +1006,18 @@ html {
   .how-does-work__content-2 {
     gap: 4rem;
   }
+  .how-does-work__content-3 {
+    gap: 4rem;
+  }
+  .how-does-work__content-4 {
+    gap: 4rem;
+  }
+  .how-does-work__content-5 {
+    gap: 4rem;
+  }
+  .how-does-work__content-6 {
+    gap: 4rem;
+  }
   .home__content {
     gap: 4rem;
   }
@@ -815,6 +1026,10 @@ html {
   }
   .home__img-1 img {
     width: 300px;
+  }
+  .biodata__content-right-box {
+    flex-direction: row;
+    gap: 3rem;
   }
 }
 
@@ -845,6 +1060,10 @@ html {
   }
   .home__img-1 img {
     width: 320px;
+  }
+  .biodata__content-right-box {
+    flex-direction: row;
+    gap: 4rem;
   }
 }
 
