@@ -5,7 +5,9 @@ Free template for company profile website, it was fully responsive which you can
 This website is inspired from shoot Dribble by [Renalda Aji](https://dribbble.com/shots/20027336-Vonzy-Beauty-Website-Landing-Page).
 
 ## 🛠    Tech Stack<br>
-- 🌐   HTML | CSS | JavaScript | React<br>
+-       HTML 
+-       CSS
+-       Javascript
 
 ### Live Site: https://2003040086-test.vercel.app/
 
