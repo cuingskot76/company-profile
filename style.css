@@ -202,7 +202,7 @@ html {
 /* *_about-us_ */
 .head-title {
   text-align: center;
-  margin: 3.5rem 0 0 0;
+  margin: 4.5rem 0 0 0;
 }
 .about-us__box-content {
   display: flex;
@@ -239,6 +239,8 @@ html {
   font-size: 1.1rem;
   letter-spacing: 0.2rem;
   font-weight: 600;
+  /* background-color: salmon; */
+  margin-top: 5rem;
 }
 .sec__title {
   color: var(--quinary-color);
@@ -558,8 +560,11 @@ html {
   margin-bottom: 1rem;
 }
 .quick-link a {
-  color: var(--quaternary-color);
+  color: var(--senary-color);
   font-size: 0.9rem;
+}
+.footer__content-left .title {
+  margin-top: 1rem;
 }
 .footer__content-left-text {
   margin: 1rem 0;
@@ -573,6 +578,7 @@ html {
   color: var(--quaternary-color);
   margin-bottom: 0.5rem;
   letter-spacing: normal;
+  margin-top: 1rem;
 }
 .footer__content-2 {
   border-top: 1px solid var(--quaternary-color);
