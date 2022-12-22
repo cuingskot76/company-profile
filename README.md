@@ -9,15 +9,15 @@ This website is inspired from shoot Dribble by [Renalda Aji](https://dribbble.co
 -     CSS <br>
 -     Javascript <br>
 
-### Site: https://2003040086-test.vercel.app/
+### Live Site: https://2003040086-test.vercel.app/
 
 ## Screens UI
 ### Desktop Preview
-[url=https://postimg.cc/3kFMJYgW][img]https://i.postimg.cc/3kFMJYgW/dekstop.png[/img][/url]
+[[url=https://postimg.cc/3kFMJYgW][img]https://i.postimg.cc/3kFMJYgW/dekstop.png[/img][/url]](https://postimg.cc/3kFMJYgW)
 ### Mobile Preview
-[url=https://postimg.cc/N5TqS1F6][img]https://i.postimg.cc/N5TqS1F6/mobile.png[/img][/url]
+[[url=https://postimg.cc/N5TqS1F6][img]https://i.postimg.cc/N5TqS1F6/mobile.png[/img][/url]](https://i.postimg.cc/cLVdhJC7/dekstop.png)
 ### Full Page
-[url=https://postimg.cc/SXSBn3rd][img]https://i.postimg.cc/SXSBn3rd/full.png[/img][/url]
+[url=https://postimg.cc/3kFMJYgW][img]https://i.postimg.cc/3kFMJYgW/dekstop.png[/img][/url]
 
 ## Contributing
 I'm happy about every pull request you open and issue you find to help make this website more awesome. Please note that it might sometimes take me a while to get back to you. Feel free to ping me if I don't respons.
