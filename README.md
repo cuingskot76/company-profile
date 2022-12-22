@@ -6,14 +6,14 @@ This website is inspired from shoot Dribble by [Renalda Aji](https://dribbble.co
 
 ## 🛠    Tech Stack<br>
 -     HTML 
--     CSS <br>
--     Javascript <br>
+-     CSS
+-     Javascript
 
 ### Live Site: https://2003040086-test.vercel.app/
 
 ## Screens UI
 ### Desktop Preview
-<a href="https://postimg.cc/3kFMJYgW" target="_blank"><img src="https://i.postimg.cc/cLVdhJC7/dekstop.png" alt="dekstop"/></a><br
+<a href="https://postimg.cc/3kFMJYgW" target="_blank"><img src="https://i.postimg.cc/cLVdhJC7/dekstop.png" alt="dekstop"/></a><br/>
 ### Mobile Preview
 <a href="https://postimages.org/" target="_blank"><img src="https://i.postimg.cc/X71jZL0z/mobile.png" alt="mobile"/></a><br/><br/>
 ### Full Page
