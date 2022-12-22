@@ -5,7 +5,7 @@ Free template for company profile website, it was fully responsive which you can
 This website is inspired from shoot Dribble by [Renalda Aji](https://dribbble.com/shots/20027336-Vonzy-Beauty-Website-Landing-Page).
 
 ## 🛠    Tech Stack<br>
-[-       HTML<br>](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+<img src="{(https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)}" />
 -       CSS<br/>
 -       Javascript<br>
 
