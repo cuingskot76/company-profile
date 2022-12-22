@@ -1,7 +1,7 @@
 ## Company Profile Website
 Free template for company profile website, it was fully responsive which you can use for your company or maybe for your own portfolio website.
 
-## Special Thanks
+## Special Thanks ❤
 This website is inspired from shoot Dribble by [Renalda Aji](https://dribbble.com/shots/20027336-Vonzy-Beauty-Website-Landing-Page).
 
 ## 🛠    Tech Stack<br>
